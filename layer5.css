@@ -1,0 +1,212 @@
+body{
+    font-family: poppins;
+}
+
+.frame{
+    width: 100%;
+    margin: auto;
+    height: 800px;
+    background-color: #C4C4C4;
+    .container{
+        .container-one{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 35px;
+            .banner{
+                display: flex;
+                height: 40px;
+                img{
+                    margin-left: 30px;
+                }
+                h2{
+                    font-size: 36px;
+                    color: white;
+                }
+            }
+            .nav-item{
+                padding-right: 20px;
+                padding-top: 3px;
+                a{
+                    color: white;
+                    font-size: 18px;
+                    text-decoration: none;
+                }
+            }
+        }
+        .container{
+            color: white;
+            margin-top: 250px;
+            display: grid;
+            justify-content: center; 
+            text-align: center;
+            h1{
+                font-size: 64px;
+            }
+            p{
+                font-size: 24px;
+                align-items: center;
+            }
+        }
+    }
+    .content-one{
+        margin: auto;
+        padding-top: 500px;
+        .inlayout{
+            height: 250px;
+            display: flex;
+            justify-content: space-between;
+            .pop-dest{
+                width: 630px;
+                align-self:center;
+                h2{
+                    font-size: 60px;
+                }
+                p{
+                    font-size: 18px;
+                    line-height: 30px;
+                    color:#878787;
+                }
+            }
+            button{
+                margin-top: 140px;
+            }
+        }
+        .container{
+            .row{
+              padding-top: 50px;
+            }
+            .dest{
+              height: 625px; 
+              border-radius: 10px;
+              box-shadow: 0px 10px 20px #0000001A;
+            }
+            .rounded-top{
+                height: 312px;
+                background-color: #C4C4C4;
+            }
+            h4{
+                font-weight: bold;
+            }
+            p{
+                margin-top: 30px;
+                margin-left: 10px;
+                font-size: 14px;
+                line-height: 27px;
+                color: #555555;
+            }
+            .place,.star{
+                display: flex;
+                justify-content: space-between;
+            }
+            .place{
+                margin-top:40px ;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .star {
+                margin: 15px;
+                align-items: center;
+                white-space: nowrap;
+          }
+        }
+    }
+    .content-two{
+        height: 550px;
+        background-color: #C4C4C4;
+        margin-top: 200px;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        .palatte{
+            /* height: 140px; */
+            width: 880px;
+            padding-top: 150px;
+            h1{
+                font-size: 60px;
+                line-height: 70px;
+                color: white;
+            }
+        }
+        .package-button{
+            height: 75px;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            padding: 0 10px;
+        }
+    }
+    .testimonial{
+        /* height: 230px; */
+        padding-top: 180px;
+        h6{
+            font-size: 30px;
+            line-height: 70px;
+            color: #626262;
+            letter-spacing: 4px;
+        }
+        h4{
+            font-size: 60px;
+            line-height: 70px;
+            font-weight: bold;
+        }
+        .para{
+            width: 450px;
+            height: 80px;
+        }
+        p{
+            font-size: 18px;
+            line-height: 40px;
+        }
+        #carouselExampleControls{
+            height:80px;
+            width: 220px;
+            float: right;
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 20px;
+            button{
+                height: 75px;
+                width: 80px;
+                border: 1px solid #E8E8E8;
+                background-color: #FFFFFF;
+                border-radius: 10px;
+                box-shadow: 0px 8px 50px #0000001A;
+                svg{
+                    width: 32px;
+                    height: 32px;
+                    fill: #737373;
+                }
+            }
+        }
+    }
+    .panel{
+        height: 440px;
+        border-radius: 10px;
+        box-shadow: 0px 10px 20px #0000001A;
+        #person{
+            transform:translate(0px,-70px);
+        }
+            p{
+                text-align: left;
+            }
+    }
+    button{
+        background-color: black;
+        color: white    ;
+        padding: 15px 20px;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        line-height: 20.23px;
+        display: inline-block;
+        font-size: 22px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 30px;
+        }
+    .yellow-star{
+        display: flex;
+        width: 135px;
+        justify-content: space-between;
+    }
+}
