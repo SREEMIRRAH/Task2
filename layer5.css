@@ -1,7 +1,6 @@
 body{
     font-family: poppins;
 }
-
 .frame{
     width: 100%;
     margin: auto;
@@ -21,6 +20,7 @@ body{
                 h2{
                     font-size: 36px;
                     color: white;
+                    margin-left: 5px;
                 }
             }
             .nav-item{
@@ -33,7 +33,7 @@ body{
                 }
             }
         }
-        .container{
+        .container-two{
             color: white;
             margin-top: 250px;
             display: grid;
@@ -51,12 +51,12 @@ body{
     .content-one{
         margin: auto;
         padding-top: 500px;
-        .inlayout{
+        .layout{
             height: 250px;
             display: flex;
             justify-content: space-between;
             .pop-dest{
-                width: 630px;
+                width: 620px;
                 align-self:center;
                 h2{
                     font-size: 60px;
@@ -118,7 +118,6 @@ body{
         justify-content: center;
         text-align: center;
         .palatte{
-            /* height: 140px; */
             width: 880px;
             padding-top: 150px;
             h1{
@@ -136,7 +135,6 @@ body{
         }
     }
     .testimonial{
-        /* height: 230px; */
         padding-top: 180px;
         h6{
             font-size: 30px;
@@ -179,17 +177,126 @@ body{
             }
         }
     }
-    .panel{
-        height: 440px;
-        border-radius: 10px;
-        box-shadow: 0px 10px 20px #0000001A;
-        #person{
-            transform:translate(0px,-70px);
-        }
+    .container{
+        .panel{
+            height: 440px;
+            border-radius: 10px;
+            box-shadow: 0px 10px 20px #0000001A;
+            #person{
+                transform:translate(0px,-70px);
+            }
+            h2{
+                margin-top: -15px;
+                color: #000000;
+            }
+            h4{
+                color: #858585;
+            }
             p{
                 text-align: left;
+                font-size: 18px;
+                color: #858585;
+                margin-left: 50px;
+                margin-top: 20px;
+                margin-right: 50px;
             }
+            .yellow-star{
+                margin-top: 60px ;
+                margin-left: 50px;
+            }
+        }
     }
+    .content-three{
+        margin-top: 180px;
+        height: 600px;
+        background-color: #C4C4C4;
+        display: grid;
+        justify-content: center; 
+        text-align: center;
+        .palatte{
+            margin-top: 70px;
+            h1{
+                font-size: 60px;
+                line-height: 70px;
+                color: white;
+            }
+            p{  
+              padding: 3% 15%;
+              font-size: 18px;
+              line-height: 34px;
+              color: #DFDFDF;
+            }
+            
+        }
+
+            .mailid{
+              position: relative;
+              height: 85px;
+              input[type="email"] {
+                width: 700px;
+                height: 80px;
+                border: 1px solid #ccc;
+                border-radius: 40px;
+                padding: 30px;
+                font-size: 16px;
+            }
+
+            button {
+              position: absolute;
+              top:6px;
+              right:115px;
+              padding: 20px 30px;
+            }
+        }
+    }
+    .context{
+        margin-top: 5%;
+        svg{
+            width: 20px;
+            height: 20px;
+          }
+          .fw-bold{
+            color: black;
+          }
+          .logo{
+            font-size: 64px;
+            img{
+              height: 70px;
+              width: 70px;
+            }
+          }
+          .location{
+            padding-left: 4%;
+            height: 200px;
+            p{
+              font-size: 14px;
+            }
+          }
+          .follow{
+            p{
+                padding-left: 4%;
+            }
+            a{
+              padding: 3%;
+            }
+          }
+          .link{
+            display: grid;
+            a{
+              text-decoration: none;
+              color: #6C6C6C;
+            }
+          }
+    }
+    .bottom{
+        margin-top: 50px;
+        height: 100px;
+        background-color: black;
+        p{
+            margin-top: 40px;
+          color: white;
+        }
+      }
     button{
         background-color: black;
         color: white    ;
@@ -197,7 +304,7 @@ body{
         border: none;
         text-align: center;
         text-decoration: none;
-        line-height: 20.23px;
+        line-height: 20px;
         display: inline-block;
         font-size: 22px;
         margin: 4px 2px;
